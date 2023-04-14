@@ -30,5 +30,9 @@ public class NameVariable {
     // cantidad máxima de clases por estudiante - max classes per student
     // Integer maxClassesPerStudent = 6;
     static Integer maxClassesPerStudent = 6;
-    
+
+    private NameVariable() {
+        // Adicione Este Constructor Para Cumplir Y Por Recomendación De SonarLint
+    }
+
 }
