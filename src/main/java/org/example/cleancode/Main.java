@@ -23,5 +23,13 @@ public class Main {
         logger.info(daysSinceLastModification);
         logger.info(maxClassesPerStudent);
 
+        logger.info("=======================================================");
+
+        File file = new File(22, false);
+        String fileId = "ID File => " + file.getId();
+        String flaggedId = "ID Flagged => " + file.getFlagged();
+
+        logger.info(fileId);
+        logger.info(flaggedId);
     }
 }
